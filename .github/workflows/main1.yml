@@ -14,4 +14,4 @@ jobs:
   needs: job1 #for dependent jobs
   steps:
    - name: Job 2
-     run: echi "Job 2 executed successfully"
+     run: echo "Job 2 executed successfully"
